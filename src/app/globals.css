@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --bg: 0 0% 4%;
+    --fg: 0 0% 96%;
+    --muted: 0 0% 72%;
+    --subtle: 0 0% 55%;
+    --border: 0 0% 18%;
+    --accent: 204 100% 72%;
+  }
+
+  html {
+    background: hsl(var(--bg));
+  }
+
+  body {
+    color: hsl(var(--fg));
+    background: hsl(var(--bg));
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background: hsl(var(--accent) / 0.25);
+  }
+
+  a {
+    text-underline-offset: 0.22em;
+    text-decoration-thickness: 1px;
+  }
+}
+
+@layer utilities {
+  .text-muted {
+    color: hsl(var(--muted));
+  }
+
+  .text-subtle {
+    color: hsl(var(--subtle));
+  }
+
+  .border-subtle {
+    border-color: hsl(var(--border));
+  }
+
+  .ring-accent {
+    --tw-ring-color: hsl(var(--accent) / 0.35);
+  }
+
+  .link {
+    color: hsl(var(--fg));
+    text-decoration: underline;
+    text-decoration-color: hsl(var(--border));
+    transition:
+      color 180ms ease,
+      text-decoration-color 180ms ease,
+      opacity 180ms ease;
+  }
+
+  .link:hover {
+    color: hsl(var(--fg));
+    text-decoration-color: hsl(var(--accent) / 0.75);
+  }
+
+  .link:focus-visible {
+    outline: none;
+  }
+
+  .fade-in {
+    animation: fade-in 600ms ease both;
+  }
+
+  .fade-up {
+    animation: fade-up 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .fade-in,
+    .fade-up {
+      animation: none !important;
+    }
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
