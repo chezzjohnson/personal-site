@@ -10,7 +10,8 @@ export default function Home() {
         <div className="fade-up max-w-3xl">
           <p className="text-sm tracking-wide text-subtle">About</p>
           <p className="mt-4 text-lg leading-8 text-[hsl(var(--fg))] sm:text-xl">
-            The goal of my work is to improve public health by utilizing{" "}
+            The goal of my work is to improve public health outcomes,
+            particularly in mental health, by leveraging{" "}
             <Link className="link" href="/experience">
               policy
             </Link>
@@ -19,10 +20,10 @@ export default function Home() {
               writing
             </Link>
             ,{" "}
-            <Link className="link mr-1" href="/apps">
-              technology,
+            <Link className="link" href="/apps">
+              technology
             </Link>
-            and medicine as mediums of action to improve mental health outcomes.{" "}
+            , and medicine as mediums for change.
           </p>
         </div>
 
