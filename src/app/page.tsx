@@ -46,7 +46,9 @@ export default function Home() {
                 </Link>
               </div>
               <p className="mt-2 text-[15px] leading-7 text-muted">
-                Advancing legislation to improve mental health outcomes and advocating to expand access to mental health treatments.
+                Policy and advocacy work in government, political consulting,
+                and nonprofits, driven by a commitment to public health reform
+                to improve mental health outcomes.
               </p>
             </div>
 
@@ -57,8 +59,9 @@ export default function Home() {
                 </Link>
               </div>
               <p className="mt-2 text-[15px] leading-7 text-muted">
-                Writing about policy and public health issues that shift culture towards a greater awareness for mental health problems facing our society, and the solutions to those problems.
-              
+                Writing to inform people about public health issues facing our
+                society and providing possible solutions to those problems, so
+                we can improve mental health outcomes.
               </p>
             </div>
 
@@ -69,7 +72,8 @@ export default function Home() {
                 </Link>
               </div>
               <p className="mt-2 text-[15px] leading-7 text-muted">
-              Building mobile apps that provide mental health support and make technology a resource for improved mental health outcomes.
+                Building mobile apps that support and improve mental health
+                outcomes.
               </p>
             </div>
           </div>
