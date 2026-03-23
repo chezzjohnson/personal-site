@@ -20,7 +20,7 @@ export default function Home() {
             </Link>
             ,{" "}
             <Link className="link mr-1" href="/apps">
-              technology
+              technology,
             </Link>
             and medicine as mediums of action to improve mental health outcomes.{" "}
           </p>
