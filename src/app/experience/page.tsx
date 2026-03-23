@@ -23,9 +23,7 @@ export default function ExperiencePage() {
 
           </p>
           <p className="mt-3 text-sm text-subtle">
-            <Link className="link" href="/">
-              Back to About
-            </Link>
+           
           </p>
         </div>
 
