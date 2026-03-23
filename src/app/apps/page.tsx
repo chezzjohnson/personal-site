@@ -20,7 +20,7 @@ export default function AppsPage() {
         <div className="fade-up max-w-3xl">
           <p className="text-sm tracking-wide text-subtle">Apps</p>
           <p className="mt-4 text-lg leading-8 text-[hsl(var(--fg))] sm:text-xl">
-            I build mobile apps that provide mental health support and make technology a resource for improved mental health outcomes.
+           Building mobile apps that support and improve mental health outcomes.
           </p>
         </div>
 

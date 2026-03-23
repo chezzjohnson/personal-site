@@ -11,19 +11,17 @@ const orgLogos: { src: string; alt: string; bg?: "white" | "black" | string }[] 
   { src: "/experience/TAG_logo_white.jpeg", alt: "TAG", bg: "black" },
 ];
 
-export default function ExperiencePage() {
+export default function PolicyAdvocacyPage() {
   return (
     <>
       <SiteNav />
       <main>
         <div className="fade-up max-w-3xl">
-          <p className="text-sm tracking-wide text-subtle">Experience</p>
+          <p className="text-sm tracking-wide text-subtle">Policy and Advocacy</p>
           <p className="mt-4 text-lg leading-8 text-[hsl(var(--fg))] sm:text-xl">
-            Experience in government, political consulting, and nonprofits, driven by a commitment to public health reform to improve mental health outcomes.
-
-          </p>
-          <p className="mt-3 text-sm text-subtle">
-           
+            Policy and advocacy work in government, political consulting, and
+            nonprofits, driven by a commitment to public health reform to improve
+            mental health outcomes.
           </p>
         </div>
 

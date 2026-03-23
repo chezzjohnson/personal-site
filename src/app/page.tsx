@@ -12,7 +12,7 @@ export default function Home() {
           <p className="mt-4 text-lg leading-8 text-[hsl(var(--fg))] sm:text-xl">
             The goal of my work is to improve public health outcomes,
             particularly in mental health, by leveraging{" "}
-            <Link className="link" href="/experience">
+            <Link className="link" href="/policy-advocacy">
               policy
             </Link>
             ,{" "}
@@ -41,8 +41,8 @@ export default function Home() {
           <div className="mt-5 grid gap-4 sm:grid-cols-2">
             <div className="rounded-2xl border border-subtle bg-white/[0.02] p-5">
               <div className="text-xs tracking-wide text-subtle">
-                <Link className="link" href="/experience">
-                  Experience
+                <Link className="link" href="/policy-advocacy">
+                  Policy and Advocacy
                 </Link>
               </div>
               <p className="mt-2 text-[15px] leading-7 text-muted">
@@ -65,7 +65,7 @@ export default function Home() {
             <div className="rounded-2xl border border-subtle bg-white/[0.02] p-5">
               <div className="text-xs tracking-wide text-subtle">
                 <Link className="link" href="/apps">
-                  Mobile Apps
+                  Apps
                 </Link>
               </div>
               <p className="mt-2 text-[15px] leading-7 text-muted">

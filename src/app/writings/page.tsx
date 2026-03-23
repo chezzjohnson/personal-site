@@ -63,7 +63,7 @@ export default function WritingsPage() {
         <div className="fade-up max-w-3xl">
           <p className="text-sm tracking-wide text-subtle">Writings</p>
           <p className="mt-4 text-lg leading-8 text-[hsl(var(--fg))] sm:text-xl">
-          Writing supports my mission by informing people about the public health issues that our society faces and providing possible solutions to those problems.
+          Writing to inform people about public health issues facing our society and providing possible solutions to those problems, so we can improve mental health outcomes.
           </p>
           
         </div>

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "Zachary — %s",
   },
   description:
-    "A focused, mission-driven personal site spanning experience, writing, and apps.",
+    "A focused, mission-driven personal site spanning policy and advocacy, writing, and apps.",
 };
 
 export default function RootLayout({
